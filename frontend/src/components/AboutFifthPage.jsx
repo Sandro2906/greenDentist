@@ -37,7 +37,7 @@ const AboutFifthPage = () => {
         <div className='w-full h-auto flex flex-col lg:flex-row'>
 
         {data.map(({id,name,text,pic})=>(
-            <div data-aos="fade-up" key={id} className='w-full h-auto p-3 flex flex-col justify-center items-center mx-3 my-3 bg-white py-14 px-7'>
+            <div data-aos="fade-up" key={id} className='w-full h-auto p-3 flex flex-col justify-center items-center lg:mx-3 my-3 bg-white py-14 px-7'>
             <div className='w-[150px] h-[150px] rounded-full bg-gray-300'> <img src={pic} alt='pic' className='w-full h-full object-cover rounded-full'/></div>
             <div className=' h-auto justify-center items-center w-[200px] flex py-7 '>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10">
