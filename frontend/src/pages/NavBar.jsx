@@ -68,7 +68,7 @@ const NavBar = () => {
 
 
             {nav && (
-                    <div className='w-full h-screen flex flex-col py-10  items-center px-10 absolute top-0 left-0 z-20 bg-white'>
+                    <div className='w-full h-screen flex flex-col py-10 bg-emerald-200 items-center px-10 absolute top-0 left-0 z-20 bg-white'>
                     
                     <div className=' pb-10 px-7 absolute top-7 right-2' onClick={()=> setNav(!nav)}>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
@@ -80,7 +80,7 @@ const NavBar = () => {
                         data.map(({name,id,link})=>(
                             <Link to={link}>
                             <div key={id} className='w-full h-auto py-3'>
-                              <h1 className='text-2xl font-semibold p-2'>{name}</h1>
+                              <h1 className='text-2xl text-emerald-800 font-semibold p-2'>{name}</h1>
                               </div>
                               </Link>
                               
